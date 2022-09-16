@@ -121,8 +121,16 @@ div.container-fluid {
 
     #collapsable-nav ul li {
         display: block;
+        border: 1px solid #401D83;
     }
 
+    .navbar-default .navbar-collapse{
+        border: 1px solid #E7E7E7;
+    }
+
+    .navbar-nav{
+        margin: 0px -15px;
+    }
     
 
 
