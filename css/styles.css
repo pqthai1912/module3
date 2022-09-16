@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2, h4{
+    font-weight: bold;
+}
+
+/** HEADER **/
+
+#header-nav {
+    border-radius: 0;
+    border: 0;
+    background: #68D69D;
+}
+
+.navbar-header h1 {
+    /* Company name */
+    font-family: 'Lora', serif;
+    color: #401D83;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-header a:hover,
+.navbar-header a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    background-color: #68D69D;
+}
+
+#nav-list a {
+    color: #2c115c;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #401D83;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -20px;
+}
+
+.sr-only:hover {
+    background: #68D69D;
+}
+
+/** END HEADER **/
+
+/* CONTENT PAGE */
+div.container-fluid {
+    height:1000px;
+}
+
+#chicken-content, #beef-content, #sushi-content {
+    margin-bottom: 20px;
+}
+/* END CONTENT PAGE */
+
+
+/* Media */
+/********** Medium and Large devices **********/
+@media (min-width: 992px){
+
+    /* Header */
+    .navbar-header h1 {
+        margin-top: 15px;
+    }
+    /* End Header */
+
+    /* Home Page */
+    /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Header */
+    .navbar-header h1 {
+        margin-top: 18px;
+    }
+
+    /* End Header */
+    /* Home Page */
+    /* End Home Page */
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    /* Header */
+    .navbar-header h1{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    #collapsable-nav a {
+        /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+
+    #collapsable-nav ul li {
+        display: block;
+    }
+
+    
+
+
+    /* End Header */
+
+    /* Home Page */
+
+}
